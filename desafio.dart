@@ -30,5 +30,5 @@ void main() {
 
 //
 
-  print("o resultado do processo é $resultado ");
+  print("o resultado do somatório é $resultado ");
 }
