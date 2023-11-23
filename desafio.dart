@@ -2,7 +2,7 @@ import 'dart:io';
 
 //definindo a função obterNum que recebe numero como parâmetro
 int obterNum(int num) {
-  int soma = 0;
+  int somatorio = 0;
   //variável soma sendo inicalizada com 0
   //abaixo, sendo iniciado um loop, que vai de 1 até numeroDigitado
   for (int numeroDigitado = 1; numeroDigitado < num; numeroDigitado++) {
@@ -10,12 +10,12 @@ int obterNum(int num) {
     //caso contrário não "passará" para variável soma e não será exibida
 
     if (numeroDigitado % 3 == 0 || numeroDigitado % 5 == 0) {
-      soma += numeroDigitado;
+      somatorio += numeroDigitado;
       //no final a soma que inicia no zero, é adicionada ao numeroDigitado
       //e retorna no final
     }
   }
-  return soma;
+  return somatorio;
 }
 
 //iniciando main:
